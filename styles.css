@@ -3,7 +3,7 @@
 
 /* Apply Gothic Condensed font (Oswald) to all text by default */
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 /* External Link Button remains with Orbitron */
