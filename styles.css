@@ -21,9 +21,15 @@ body {
     border-radius: 5px;
     font-family: 'Orbitron', sans-serif;
 }
-.nav-item {
+/* Force navbar link text to be white */
+.navbar .nav-link {
     color: white !important;
 }
+
+.navbar .nav-link:hover {
+    color: #ccc !important; /* Light grey on hover */
+}
+
 /* Center the navbar links */
 .navbar-collapse {
     justify-content: center;
@@ -31,5 +37,5 @@ body {
 
 /* Dark background for the navbar */
 .navbar {
-    background-color: #333; /* Dark grey for a sleek look */
+    background-color: #333; /* Dark grey*/
 }
