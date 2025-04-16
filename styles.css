@@ -21,7 +21,9 @@ body {
     border-radius: 5px;
     font-family: 'Orbitron', sans-serif;
 }
-
+.nav-item {
+    color: white !important;
+}
 /* Center the navbar links */
 .navbar-collapse {
     justify-content: center;
