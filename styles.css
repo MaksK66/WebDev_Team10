@@ -152,18 +152,39 @@ body {
     font-weight: 600;
 }
 
-#reviews a {
-    text-decoration: none;
-    color: #212121;
-    font-weight: 500;
+.reviews-list {
+    border: none;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-#reviews a:hover {
-    color: #e73236;
-    text-decoration: underline;
-}
-
-.list-group-item {
+.reviews-list .list-group-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
     font-family: 'Quicksand', sans-serif;
 }
+
+.reviews-list blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #333;
+}
+
+.reviews-list footer {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.reviews-list a {
+    color: #e73236;
+    text-decoration: none;
+}
+
+.reviews-list a:hover {
+    text-decoration: underline;
+}
+    
     
