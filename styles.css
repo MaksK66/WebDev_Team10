@@ -115,15 +115,3 @@ body {
     text-align: center;
     margin: 10px 0;
 }
-
-
-/* Dark background for the navbar */
-.navbar {
-    background-color: rgb(50, 50, 50) /* Dark grey*/
-}
-
-@media (min-width: 768px) { /* Adjust the breakpoint as needed */
-    .updates-section {
-        margin-top: 40px;
-    }
-}
