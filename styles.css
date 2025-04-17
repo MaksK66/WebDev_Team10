@@ -21,6 +21,7 @@ body {
     border-radius: 5px;
     font-family: 'Orbitron', sans-serif;
 }
+
 /* Force navbar link text to be white */
 .navbar .nav-link {
     color: white !important;
@@ -70,9 +71,51 @@ body {
     font-size: 16px;
 }
 
-.row {
-    
+.timeline-item1 {
+    background-color: rgb(255, 241, 241) !important;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
 }
+
+.timeline-item2 {
+    background-color: rgb(255, 249, 229) !important;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.timeline-item3 {
+    background-color: rgb(218, 225, 230) !important;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.timeline-item4 {
+    background-color: rgb(177, 184, 189) !important;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.timeline-item5 {
+    background-color: rgb(159, 165, 191) !important;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
 
 /* Dark background for the navbar */
 .navbar {
