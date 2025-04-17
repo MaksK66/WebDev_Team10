@@ -115,10 +115,3 @@ body {
     text-align: center;
     margin: 10px 0;
 }
-
-
-@media (min-width: 768px) { /* Adjust the breakpoint as needed */
-    .updates-section {
-        margin-top: 40px;
-    }
-}
