@@ -3,7 +3,7 @@
 
 /* Apply Gothic Condensed font (Oswald) to all text by default */
 body {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Orbitron', sans-serif !important;
 }
 
 /* External Link Button remains with Orbitron */
@@ -56,7 +56,8 @@ body {
     margin: 4px 2px;
     border: 2px solid #212121; /* Dark grey border */
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 15.65px;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .updates-section {
@@ -69,6 +70,7 @@ body {
     border: 2px solid #212121; /* Dark grey border */
     border-radius: 5px;
     font-size: 16px;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .timeline-item1 {
@@ -78,6 +80,7 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .timeline-item2 {
@@ -87,6 +90,7 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .timeline-item3 {
@@ -96,6 +100,7 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .timeline-item4 {
@@ -105,6 +110,7 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .timeline-item5 {
@@ -114,6 +120,7 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 .card {
