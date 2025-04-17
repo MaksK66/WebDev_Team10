@@ -30,6 +30,14 @@ body {
     color: #ccc !important; /* Light grey on hover */
 }
 
+.motorsport {
+    color: rgb(231, 50, 54) !important; /* Force first part of brand text to be red */
+}
+
+.manager {
+    color: white !important; /* Force second part of brand text to be white*/
+}
+
 /* Center the navbar links */
 .navbar-collapse {
     justify-content: center;
@@ -37,5 +45,5 @@ body {
 
 /* Dark background for the navbar */
 .navbar {
-    background-color: #333; /* Dark grey*/
+    background-color: rgb(50, 50, 50) /* Dark grey*/
 }
