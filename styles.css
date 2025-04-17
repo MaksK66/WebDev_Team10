@@ -136,3 +136,34 @@ body {
 .footer-content {
     font-family: 'Oswald', sans-serif !important;
 }
+
+.game-page {
+    font-family: 'Oswald', sans-serif;
+}
+
+.game-title {
+    font-family: 'Orbitron', sans-serif;
+    color:#e73236;
+}
+
+.btn-dark {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+#reviews a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 500;
+}
+
+#reviews a:hover {
+    color: #e73236;
+    text-decoration: underline;
+}
+
+.list-group-item {
+    font-family: 'Quicksand', sans-serif;
+}
+    
