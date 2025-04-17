@@ -43,6 +43,25 @@ body {
     justify-content: center;
 }
 
+.about-section {
+    justify-content: center;
+    text-align: center;
+}
+
+.about-section .text {
+    text-align: center;
+    background-color:rgb(191, 203, 211) !important;
+    padding: 10px;
+    margin: 4px 2px;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.row {
+    
+}
+
 /* Dark background for the navbar */
 .navbar {
     background-color: rgb(50, 50, 50) /* Dark grey*/
