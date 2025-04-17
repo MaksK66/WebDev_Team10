@@ -30,12 +30,57 @@ body {
     color: #ccc !important; /* Light grey on hover */
 }
 
+.motorsport {
+    color: rgb(231, 50, 54) !important; /* Force first part of brand text to be red */
+}
+
+.manager {
+    color: white !important; /* Force second part of brand text to be white*/
+}
+
 /* Center the navbar links */
 .navbar-collapse {
     justify-content: center;
 }
 
+.about-section {
+    justify-content: center;
+    text-align: center;
+}
+
+.about-section .text {
+    text-align: center;
+    background-color:rgb(191, 203, 211) !important;
+    padding: 10px;
+    margin: 4px 2px;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.updates-section {
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(191, 203, 211) !important;
+    padding: 10px;
+    margin: 4px 2px;
+    margin-top: 10px;
+    border: 2px solid #212121; /* Dark grey border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.row {
+    
+}
+
 /* Dark background for the navbar */
 .navbar {
-    background-color: #333; /* Dark grey*/
+    background-color: rgb(50, 50, 50) /* Dark grey*/
+}
+
+@media (min-width: 768px) { /* Adjust the breakpoint as needed */
+    .updates-section {
+        margin-top: 40px;
+    }
 }

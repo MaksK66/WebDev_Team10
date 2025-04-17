@@ -11,9 +11,11 @@
 </head>
 <body>
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg mb-3" id="home">
-    <div class="container-fluid d-flex justify-content-center align-items-center">
-      <a class="navbar-brand me-3" href="#">Motorsport Manager</a>
+  <nav class="navbar navbar-expand-lg" id="home">
+    <div class="container-fluid">
+      <a class="navbar-brand me-3" href="#">
+        <span class="motorsport">Motorsport</span> <span class="manager">Manager</span>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,6 +29,8 @@
           <li class="nav-item"><a class="nav-link" href="#MSM1">MsM 1</a></li>
           <li class="nav-item"><a class="nav-link" href="#MSMM2">MsM mobile 2</a></li>
           <li class="nav-item"><a class="nav-link" href="#MSMM3">MsM mobile 3</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MSMO">MsM online</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MSM4">MsM 4</a></li>
         </ul>
       </div>
     </div>
@@ -40,6 +44,8 @@
           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -60,6 +66,18 @@
               <h5>Motorsport Manager Mobile 3</h5>
             </div>
           </div>
+          <div class="carousel-item">
+            <img src="mmo.jpg" class="w-100" alt="Motorsport Manager Online">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h5>Motorsport Manager Online</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="mm4.jpg" class="w-100" alt="Motorsport Manager 4">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h5>Motorsport Manager 4</h5>
+            </div>
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,14 +87,46 @@
         </button>
       </div>
     </div>
-    <div class="col-md-4 text-center" id="about">
-      <h2>About Motorsport Manager</h2>
-      <p>Motorsport Manager is a racing management-simulation strategy video game series developed by British video game developer, Playsport Games.</p>
-      <p>This series is made up of 3 entries,</p> 
-      <p><b>Motorsport Manager</b></p>
-      <p><b>Motorsport Manager Mobile 2</b></p>
-      <p><b>Motorsport Manager Mobile 3</b></p>
-      <p>In the games, players take on the role of a team principal, managing a motorsport team with the ability to hire or fire anyone they see fit and making the difficult decisions to lead them to victory.</p>
+    <div class="col-md-4" id="about">
+      <div class="about-section">
+        <div class="text">
+            <h2>About Motorsport Manager</h2>
+            <p>Motorsport Manager is a racing management-simulation strategy video game series developed by British video game developer, Playsport Games.</p>
+            <p>This series is made up of these 5 main entries,</p> 
+            <p><b>Motorsport Manager</b></p>
+            <p><b>Motorsport Manager Mobile 2</b></p>
+            <p><b>Motorsport Manager Mobile 3</b></p>
+            <p><b>Motorsport Manager Online</b></p>
+            <p><b>Motorsport Manager 4</b></p>
+            <p>In the games, players take on the role of a team principal, managing a motorsport team with the ability to hire or fire anyone they see fit and making the difficult decisions to lead them to victory.</p>
+        </div>
+      <div class="updates-section">
+        <h4>Motorsport Manager NewsLetter</h4>
+        <h7>For all the Latest Updates</h7>
+        <div class="mb-2">
+            <input type="text" class="form-control" placeholder="Enter Email">
+        </div>
+        <div class="text-center">
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+        </div>
+        <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signupModalLabel">NewsLetter</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for signing up with us!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      </div>
     </div>
   </div>
   
@@ -109,6 +159,13 @@
           <h2>2019</h2>
           <p>Motorsport Manager was released on Nintendo Switch on March 14, 2019, marking the series' console debut. This version featured 20 unique circuits and 65 track layouts, including an exclusive New Zealand circuit. It also included higher resolution artwork and 3D car models. Players could build teams across three car classes and compete in nine tiers of racing. Pocket Gamer gave the Switch port a positive review, noting its gameplay similarity to the mobile version but with a more complex control scheme using controller hotkeys and improved visuals, such as detailed car models instead of simple dots on maps.</p>
         </div>
+        <div class="timeline-item">
+          <h2>2020</h2>
+          <p>Motorsport Manager Online was released on mobile devices</p>
+        </div>
+        <div class="timeline-item">
+          <h2>2023</h2>
+          <p>Motorsport Manager 4 was released on mobile devices</p>
       </div>
     </div>
   </div>
@@ -204,6 +261,41 @@
           </div>
         </div>
       </div>
+      <h1>Download Motorsport Manager Online</h1>
+      <div class="card" style="margin: 5px; display: inline-block;" id="MSMM3">
+        <img src="mmo.jpg" class="w-100" alt="Card Image">
+        <div class="card-content">
+          <h3>Motorsport Manager Online</h3>
+          <p>Download Now For Mobile Devices</p>
+          <div class="row">
+            <div class="downloads col-6">
+              <p><b>iOS</b></p>
+              <a href="#" class="external-link-button">Buy Now</a>
+            </div>
+            <div class="downloads col-6">
+              <p><b>Android</b></p>
+              <a href="#" class="external-link-button">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1>Download Motorsport Manager 4</h1>
+        <div class="card" style="margin: 5px; display: inline-block;" id="MSMO">
+            <img src="mm4.jpg" class="w-100" alt="Card Image">
+            <div class="card-content">
+            <h3>Motorsport Manager 4</h3>
+            <p>Download Now For Mobile Devices</p>
+            <div class="row">
+                <div class="downloads col-6">
+                <p><b>iOS</b></p>
+                <a href="#" class="external-link-button">Buy Now</a>
+                </div>
+                <div class="downloads col-6">
+                <p><b>Android</b></p>
+                <a href="#" class="external-link-button">Buy Now</a>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
   
